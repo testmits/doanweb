@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu - Tea House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/introduce.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <div id="header">
+            <!-- Nav bar -->
+            <div class="header__navbar-wrap">
+                <div class="grid wide ">
+
+                    <div class="header__navbar hide-on-mobile-and-tablet">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <img src="./assets/img/header__navbar-logo.webp" alt="" class="header__navbar-img">
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link-left">Hotline:</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link-left header__navbar-link-number">0363532929</a>
+                            </li>
+                        </ul>
+
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+
+                            </li>
+                            <li class="header__navbar-item navbar-item-display">
+                                <a href="#" class="header__navbar-link-right">
+                                    <i class="header__navbar-icon bx bx-search" style="font-weight:600 ;"></i>
+                                    Tìm kiếm
+                                </a>
+                                <div class="header__navbar-search">
+                                    <input class="header__navbar-search-input" type="text " placeholder="Tìm kiếm...">
+                                    <i class="header__navbar-search-icon bx bx-search" style="font-weight:600 ;"></i>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item navbar-item-display">
+                                <a href="" class="header__navbar-link-right ">
+                                    <i class="header__navbar-icon bx bxs-user"></i>
+                                    Tài Khoản
+                                </a>
+                                <div class="user__notify">
+                                    <ul class="user__notify-list">
+                                        <li class="user__notify-item">
+                                            <span href="" class="user__notify-link sign-up-show">Đăng ký</span>
+                                        </li>
+                                        <li class="user__notify-item">
+                                            <span href="" class="user__notify-link sign-in-show">Đăng nhập</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item navbar-item-display">
+                                <a href="#" class="header__navbar-link-right">
+                                    <i class='header__navbar-icon bx bx-shopping-bag'></i>
+                                    <span class="header__navbar-icon-quantity">0</span>
+                                    Giỏ hàng
+                                </a>
+                                <div class="header__cart-no-cart">
+                                    <div class="header__cart-no-cart-img">
+                                        <img src="./assets/img/empty-cart.webp" alt="">
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- category -->
+            <div class="grid wide">
+                <div class="header__category hide-on-mobile-and-tablet">
+                    <ul class="header__category-list">
+                        <li class="header__category-item">
+                            <a href="./index.html" class="header__category-link header__category-link--active">Trang
+                                chủ</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="./introduce.html"
+                                class="header__category-link introduce__category-link--active">Giới thiệu</a>
+                        </li>
+
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Sản phẩm
+                                <i class='header__category-icon bx bxs-down-arrow'></i>
+                            </a>
+
+                            <ul class="header__category-menu">
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Trà nóng</a>
+                                </li>
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Trà hoa quả</a>
+                                </li>
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Smoothies</a>
+                                </li>
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Bánh ngọt</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                    <div class="header_-category-img">
+                        <a href="" class="header__category-link">
+                            <img src="./assets/img/logo.webp" alt="">
+                        </a>
+                    </div>
+                    <ul class="header__category-list">
+                        <li class="header__category-item">
+                            <a href="#news" class="header__category-link">Tin tức</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Khuyến mãi</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Thực đơn</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="./contact.html" class="header__category-link">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- mobile-and-tablet-header -->
+
+            <input type="radio" id="checkbox-hidden" name="display-on-mt" hidden>
+            <input type="radio" id="checkbox-list-on-mt" name="display-on-mt" hidden>
+            <label class="mt__header-overlay" for="checkbox-hidden"></label>
+            <div class="mt__header-menu">
+                <div class="mt__header-menu-heading">
+                    <span href="" class="mt__header-menu-login">Đăng nhập</span>
+                    <a href="" class="mt__header-menu-special">/</a>
+                    <span href="" class="mt__header-menu-register">Đăng ký</span>
+                </div>
+                <div class="mt__header-menu-list">
+                    <li class="mt__header-menu-item">
+                        <a href="#" class="mt__header-menu-link">Trang chủ</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Giới thiệu</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Sản phẩm</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Tin tức</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Thực đơn</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Liên hệ</a>
+                    </li>
+                </div>
+            </div>
+            <label class="mt__header-icon" for="checkbox-list-on-mt"><i
+                    class='mt__header-icon bx bx-list-ul'></i></label>
+
+            <div class="grid wide">
+                <div class="mt__header">
+                    <div class="mt__header-item">
+                        <div class="mt__header-img">
+                            <a href=""><img src="./assets/img/logo_white.webp" alt=""></a>
+                        </div>
+                        <div class="header__navbar-item navbar-item-display">
+                            <a href="#" class="header__navbar-link-right">
+                                <i class='header__navbar-icon bx bx-shopping-bag'></i>
+                                <span class="header__navbar-icon-quantity">0</span>
+                                Giỏ hàng
+                            </a>
+                            <div class="header__cart-no-cart">
+                                <div class="header__cart-no-cart-img">
+                                    <img src="./assets/img/empty-cart.webp" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt__header-search">
+                        <input type="text" placeholder="Tìm sản phẩm bạn mong muốn...">
+                        <i class="header__navbar-icon bx bx-search" style="font-weight:600 ;"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="app__container">
+            <div class="body__product-warp section-title-container">
+                <div class="grid wide">
+                    <h1 class="section-title">
+                        <p class="section-title-main">Giới thiệu</p>
+                    </h1>
+                </div>
+            </div>
+            <div class="entry-content page-entry-content">
+                <div class="grid wide">
+                    <p>Tea House hiện là chuỗi cửa hàng đồ uống lớn nhất tại Việt Nam. Những sản phẩm từ Tea House đang
+                        như một cơn bão rất nhanh chóng lan rộng ra xung quanh những nước Châu Á. Đi đến đâu sản phẩm
+                        của Tea House cũng nhận được sự yêu quý của khách hàng các nước. Đây cũng là loại trà có hương
+                        vị khác biệt nhất, đủ tiêu chuẩn và là thương hiệu đồ uống duy nhất để đưa vào giới thiệu tại
+                        Shanghai World Expo 2010.</p>
+                    <p>Tea House hiện tại đã có chi nhánh cửa hàng tại Đài Loan, Nhật Bản, Trung Quốc, Hồng Kong,
+                        Indonesia, Malaisia, Singapor, Việt Nam, Myanma, Brunei, v.v..</p>
+                    <p>Trong suốt quá trình phát triển của mình Tea Houseluôn tập trung vào việc kết hợp và tạo ra những
+                        sản phẩm chất lượng cao nhất và phải tạo được sự khác biệt so với những sản phẩm cùng loại trên
+                        thị trường. Để làm được điều này, chỉ số chất lượng của tất cả các nguyên liệu và các thành phần
+                        được sử dụng trong các sản phẩm của Tea House không chỉ vượt qua được chứng nhận SGS Đài Loan mà
+                        họ cũng đã vượt qua 231 bài thử nghiệm chất lượng của SGS Nhật Bản về việc cấp phép nhập khẩu.
+                        Dingtea hoàn toàn không sử dụng hương liệu phụ gia để bảo quản. Ngoài tính đặc trưng hơn so với
+                        các sản phẩm khác, Sản phẩm của Tea House còn thể hiện văn hóa trà chuyên nghiệp, tinh tế và độc
+                        đáo của người Đài Loan.</p>
+                    <p>Để luôn có được loại trà tốt nhất, Tea House đã ký hợp đồng với những nông dân ở vùng cao. Chăm
+                        sóc tại những vườn chè với nhiệt độ thấp và có độ cao lên đến 1000m, cùng với việc lựa chọn tỉ
+                        mỉ một đầu-hai-lá, trà đã pha không chỉ toả ra một hương vị ngọt ngào mà còn có mùi thơm đặc
+                        biệt. Phần lớn các loại trà trên thị trường đều có xuất xứ từ Trung Quốc, hương thơm được tăng
+                        lên thông qua việc sử dụng các phụ gia, trong khi vị đắng và vị ngọt được điều chỉnh thông qua
+                        các chất làm ngọt, do đó chất lượng có sự khác biệt đáng kể so với sản phẩm của Tea House.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="grid wide">
+                <ul class="row footer__list">
+                    <li class="col l-4 m-12 c-12 footer__list-item">
+                        <a href="./index.html" class="header__category-link footer-logo" style="display:block ;">
+                            <img src="./assets/img/logo.webp" alt="">
+                        </a>
+                        <p class="footer__list-item-desc footer__list-item-desc--margin">Chúng tôi mong muốn Tea House
+                            sẽ trở thành “Nhà Trà", nơi mọi người xích lại gần nhau và tìm thấy niềm vui, sự sẻ chia
+                            thân tình bên những tách cà phê đượm hương, chất lượng.</p>
+                        <div class="footer__list-item-icon">
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-tiktok'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-youtube'></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col l-4 m-6 c-12 footer__list-item">
+                        <div class="footer__list-item-header">LIÊN HỆ VỚI CHÚNG TÔI</div>
+                        <ul class="footer__list-item-text footer__list-item-desc--2">
+                            <li class="footer__list-item-text-icon"><i class='bx bxs-location-plus'></i></li>
+                            <li class="footer__list-item-desc ">Địa chỉ: Tâng 6 toà nhà Ladeco, 266 Đội Cấn, phường Liễu
+                                Giai, Hà Nội, Vietnam</li>
+                        </ul>
+                        <ul class="footer__list-item-text">
+                            <li class="footer__list-item-text-icon"><i class='bx bxs-phone'></i></li>
+                            <li class="footer__list-item-text-desc">
+                                <p class="footer__list-item-desc">Hotline đặt bàn: 0363532929</p>
+                                <p class="footer__list-item-desc">Hotline giao hàng: 0363532929</p>
+
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="col l-4 m-6 c-12 footer__list-item">
+                        <div class="footer__list-item-header">ĐĂNG KÝ NHẬN KHUYẾN MÃI</div>
+                        <p class="footer__list-item-desc footer__list-item-desc--margin">Đừng bỏ lỡ những sản phẩm và
+                            chương trình khuyến mãi hấp dẫn</p>
+                        <div class="footer__list-item-sign">
+                            <input type="email" placeholder="Email của bạn" class="footer__list-item-sign-email">
+                            <button class="footer__list-item-sign-login">Đăng ký</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__last">
+                <p class="footer__last-text footer__last-text--after">© Bản quyền thuộc về Cafein Team </p>
+                <p class="footer__last-text">Cung cấp bởi <a href="#">Sapo</a></p>
+            </div>
+        </div>
+
+        <div class="go-to-head">
+            <a href="#header" title="Lên đầu trang"><i class='bx bxs-chevron-up-circle'></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
