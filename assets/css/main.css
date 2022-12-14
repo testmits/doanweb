@@ -1178,7 +1178,7 @@
   }
 }
 
-/* .toast--success {
+.toast--success {
   border-color: #47d864;
 }
 
@@ -1246,4 +1246,4 @@
   font-size: 20px;
   color: rgba(0, 0, 0, 0.3);
   cursor: pointer;
-} */
+}
